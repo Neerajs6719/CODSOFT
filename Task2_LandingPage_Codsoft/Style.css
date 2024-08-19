@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+} 
+:root{
+    
+    --text-color:#2F4F4F;
+    --var-color:#cb0d0d;
+    --header-color:#000;;
+}
+  
+   
+
+
+
+span{
+    color:var(--var-color);
+}
+
+.header{
+    color:black;
+    display:flex;
+    font-weight: 900;
+    font-size: 1rem;
+    justify-content: space-between;
+    align-items:center;
+    padding:15px 20px;
+    z-index: 1000;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    background: transparent;
+    transition: 0.5s ease-in-out;
+    background-color: transparent;
+    
+    
+    
+}
+.logo{
+    margin-left: 1rem;
+    cursor: pointer;
+    
+    font-weight: 900;
+    color:#000;
+}
+nav a{
+    margin-left:1.5rem;
+    color:black;
+    
+}
+.Register{
+    
+    padding-right:5rem;
+
+}
+
+    
+
+.home{
+    padding:11% 6%;
+    display: flex;
+    color:var(--text-color);
+    background-image: url(image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    
+   
+
+}
+.home-content h1{
+    font-size:4rem;
+    margin-bottom: 30p;
+    
+}
+.header .Where-to{
+    margin:10px;
+}
+.header .register{
+
+    margin-left: 10px;
+}
+
+
+button{
+    background-color:var(--var-color);
+    border-radius: 7px;
+    font-size:15px;
+    font-weight: 500;
+    border:none;
+    color:var(--header-color);
+    box-shadow: 0 0 5px var(--header-color);
+    padding:5px;
+        
+      }   
+
+
+button:hover{
+    box-shadow: 0 0 5px var(--var-color),
+                0 0 25px var(--var-color),
+                0 0 50px var(--var-color),
+                0 0 100px var(--var-color);
+    transform: scale(1.2);
+    background-color: var(--var-color);
+    
+}
+.form
+{
+    border:1px solid black;
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    margin-top: 20px;
+    
+}
+.submit{
+    margin-top:20px;
+}
+input{
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+    
+    
+   
+   
+
+
